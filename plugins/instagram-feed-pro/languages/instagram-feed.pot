@@ -1,0 +1,2882 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-11-29 20:13-0600\n"
+"PO-Revision-Date: 2017-11-27 11:41-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: EDD_SL_Plugin_Updater.php:210
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:218
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s or "
+"%5$supdate now%6$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:408
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:408
+msgid "Error"
+msgstr ""
+
+#: inc/admin/actions.php:55 inc/admin/main.php:23 inc/admin/main.php:24
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/actions.php:136 inc/class-sb-instagram-post.php:247
+msgid "Error saving edited image."
+msgstr ""
+
+#: inc/admin/actions.php:145 inc/class-sb-instagram-post.php:256
+msgid "Error editing image."
+msgstr ""
+
+#: inc/admin/actions.php:570
+msgid "Note for support"
+msgstr ""
+
+#: inc/admin/actions.php:596
+msgid ""
+"Unable to use admin-ajax.php when displaying feeds. Some features of the plugin will "
+"be unavailable."
+msgstr ""
+
+#: inc/admin/actions.php:596 inc/admin/main.php:3059 inc/class-sb-instagram-feed.php:988
+#: inc/pro/class-sbi-settings-pro.php:675 inc/pro/class-sbi-settings-pro.php:924
+#: inc/pro/class-sbi-settings-pro.php:973
+msgid "this page"
+msgstr ""
+
+#: inc/admin/actions.php:720
+msgid ""
+"\n"
+"        <div class='"
+msgstr ""
+
+#: inc/admin/actions.php:722
+msgid "<a style='float:right; color: #dd3d36; text-decoration: none;' href='"
+msgstr ""
+
+#: inc/admin/actions.php:723
+msgid "<p>"
+msgstr ""
+
+#: inc/admin/actions.php:858
+msgid ""
+"\n"
+"            <div class='"
+msgstr ""
+
+#: inc/admin/main.php:15 inc/admin/main.php:16 widget.php:15
+msgid "Instagram Feed"
+msgstr ""
+
+#: inc/admin/main.php:31 inc/admin/main.php:32
+msgid "Customize"
+msgstr ""
+
+#: inc/admin/main.php:42 inc/admin/main.php:43 inc/admin/main.php:725
+#: inc/admin/main.php:751 inc/admin/main.php:1642
+msgid "License"
+msgstr ""
+
+#: inc/admin/main.php:61 inc/admin/main.php:62 inc/admin/main.php:83
+#: inc/admin/main.php:376
+msgid "What's New?"
+msgstr ""
+
+#: inc/admin/main.php:69 inc/admin/main.php:70 inc/admin/main.php:84
+#: inc/admin/main.php:377
+msgid "Getting Started"
+msgstr ""
+
+#: inc/admin/main.php:91
+#, php-format
+msgid "Let's take a look at what's new in version %s"
+msgstr ""
+
+#: inc/admin/main.php:96
+msgid "Display \"tagged\" feeds"
+msgstr ""
+
+#: inc/admin/main.php:103
+msgid ""
+"Display a feed of posts that your account has been tagged in. Increase your audience's "
+"engagement with your Instagram account by displaying tagged posts on your website."
+msgstr ""
+
+#: inc/admin/main.php:105 inc/admin/main.php:189 inc/admin/main.php:214
+#: inc/admin/main.php:272 inc/admin/main.php:303 inc/admin/main.php:321
+msgid "Directions"
+msgstr ""
+
+#: inc/admin/main.php:106
+msgid ""
+"Tagged feeds require a connected business account that has given the Smash Balloon app "
+"permission to manage comments (the manage comments permission is part of the same "
+"permission to get information about tagged photos). If you have previously connected a "
+"business account, you'll need to reconnect it using the big blue button on the "
+"\"Configure\" tab and then approve the Smash Balloon app to manage comments."
+msgstr ""
+
+#: inc/admin/main.php:115
+msgid "Faster and more efficient"
+msgstr ""
+
+#: inc/admin/main.php:122
+msgid ""
+"We've rebuilt the plugin from the ground up with a focus on performance and "
+"reliability. Your feed HTML is now generated using PHP and loaded along with the rest "
+"of your page, providing a performance boost and allowing for even more customization "
+"and extensibility in future updates."
+msgstr ""
+
+#: inc/admin/main.php:128
+msgid "Store and use local images in you feed"
+msgstr ""
+
+#: inc/admin/main.php:135
+msgid ""
+"By default a local copy of images in your feed are stored on your server, removing the "
+"reliance on Instagram's CDN as well as helping with GDPR compliance. Local images can "
+"also help optimize the resolution of images in your feed and avoid redirects that "
+"sometimes come from using URL's provided by Instagram."
+msgstr ""
+
+#: inc/admin/main.php:136
+msgid ""
+"This setting is enabled by default but can be disabled in the following location: "
+"Instagram Feed > Customize > Advanced > Misc > Image Resizing"
+msgstr ""
+
+#: inc/admin/main.php:142
+msgid "Update feeds in the background"
+msgstr ""
+
+#: inc/admin/main.php:149
+msgid ""
+"All calls to the Instagram API to get new posts are now done server-side. To keep your "
+"page load times speedy, you can enable the setting on the \"Configure\" tab to cache "
+"posts using WordPress' background cron system."
+msgstr ""
+
+#: inc/admin/main.php:150
+msgid ""
+"Local images can also created and stored during the background process to make sure a "
+"local version of the image is always served to your visitors."
+msgstr ""
+
+#: inc/admin/main.php:156
+msgid "View your Instagram story on your site"
+msgstr ""
+
+#: inc/admin/main.php:163
+msgid ""
+"Your site's visitors can now view your Instagram story in a lightbox by clicking on "
+"the avatar in a user feed header. If a story is available, you'll see a colored border "
+"around the avatar."
+msgstr ""
+
+#: inc/admin/main.php:166 inc/admin/main.php:239
+msgid "We've made some other improvements and fixes too, such as:"
+msgstr ""
+
+#: inc/admin/main.php:179
+msgid "Support for new Instagram Hashtag API"
+msgstr ""
+
+#: inc/admin/main.php:187
+msgid ""
+"Instagram's existing Hashtag API is being deprecated on December 11, 2018, and a new "
+"API has been recently released. This plugin update includes support for the new API, "
+"but will require some steps to be taken in order to ensure your Hashtag feeds continue "
+"to work."
+msgstr ""
+
+#: inc/admin/main.php:192
+msgid "Notable Changes"
+msgstr ""
+
+#: inc/admin/main.php:193
+msgid "Some changes have been made in Instagram's new Hashtag API:"
+msgstr ""
+
+#: inc/admin/main.php:195
+msgid ""
+"Hashtag feeds can now be ordered by 'Top posts' or 'Most recent'. This can be "
+"configured on the plugin settings page 'Hashtag' settings, or in the shortcode: "
+"<code>order=recent</code>."
+msgstr ""
+
+#: inc/admin/main.php:196
+msgid ""
+"When selecting 'Most recent' Instagram will only return posts from the past 24 hours, "
+"however, the plugin will store these posts so that they can continue to be displayed "
+"indefinitely, creating a permanent feed of your posts. "
+msgstr ""
+
+#: inc/admin/main.php:197
+msgid ""
+"A limit of 30 unique hashtags per Business Profile can be queried per 7 day rolling "
+"period."
+msgstr ""
+
+#: inc/admin/main.php:198
+msgid "Usernames and dates are no longer available for hashtag posts."
+msgstr ""
+
+#: inc/admin/main.php:205
+msgid "Image Downsizing"
+msgstr ""
+
+#: inc/admin/main.php:212
+msgid ""
+"As Instagram's new Hashtag API only provides full-size image URLs, we've built an "
+"image resizing feature into the plugin which runs in the background to downsize images "
+"for your posts. This results in smaller file sizes and improves the performance of "
+"your feed."
+msgstr ""
+
+#: inc/admin/main.php:215
+msgid ""
+"This feature is automatically enabled for any feed which uses Instagram's new API, but "
+"can be disabled in the following location: <i>Instagram Feed > Customize > Advanced > "
+"Misc > Image Resizing</i>."
+msgstr ""
+
+#: inc/admin/main.php:221
+msgid "Deprecation of Location, Coordinate, and Single Post Feeds"
+msgstr ""
+
+#: inc/admin/main.php:228
+msgid ""
+"Unfortunately, Instagram have deprecated Location, Coordinate, and Single Post feeds "
+"as of December 11, 2018, and so it will no longer be possible to display these kinds "
+"of feeds. <a href='https://smashballoon.com/instagram-api-changes-dec-11-2018/' "
+"target='_blank'>See here</a> for more information."
+msgstr ""
+
+#: inc/admin/main.php:229
+msgid ""
+"It is possible that Instagram will add support for these feeds in their new API, but "
+"have currently not officially announced any plans to do so.  We understand that this "
+"may affect the way you use our plugin and we apologize for any inconvenience these "
+"Instagram changes may cause."
+msgstr ""
+
+#: inc/admin/main.php:235
+msgid "But that's not all..."
+msgstr ""
+
+#: inc/admin/main.php:251
+msgid "New Layout Options"
+msgstr ""
+
+#: inc/admin/main.php:259
+msgid ""
+"We've added some awesome new layouts to allow you to showcase your Instagram content "
+"in more ways than ever before."
+msgstr ""
+
+#: inc/admin/main.php:261
+msgid "Masonry Layout"
+msgstr ""
+
+#: inc/admin/main.php:262
+msgid ""
+"Bored of squares? Display your posts in their uncropped portrait or landscape aspect "
+"ratios with the Masonry layout."
+msgstr ""
+
+#: inc/admin/main.php:263
+msgid "Highlight Layout"
+msgstr ""
+
+#: inc/admin/main.php:264
+msgid ""
+"The new Highlight layout allows you to highlight/enlarge specific posts in your feed "
+"in a number of ways:"
+msgstr ""
+
+#: inc/admin/main.php:266
+msgid "Based on a set pattern"
+msgstr ""
+
+#: inc/admin/main.php:267
+msgid "Using specific post IDs"
+msgstr ""
+
+#: inc/admin/main.php:268
+msgid "Based on a specific hashtag in the caption"
+msgstr ""
+
+#: inc/admin/main.php:270
+msgid ""
+"For example, you could set the plugin to highlight any posts which include the hashtag "
+"of #highlight."
+msgstr ""
+
+#: inc/admin/main.php:273
+msgid ""
+"Use the options at <i>Customize &gt; General &gt; <b>Layout</b></i> to select a layout "
+"and reveal any associated options."
+msgstr ""
+
+#: inc/admin/main.php:274
+msgid ""
+"To change the settings in specific feeds use the <code>layout</code> shortcode option, "
+"Eg: <code>layout=highlight</code>"
+msgstr ""
+
+#: inc/admin/main.php:281
+msgid "Smoother Loading and Hover Effects"
+msgstr ""
+
+#: inc/admin/main.php:288
+msgid ""
+"Everyone likes to make a smooth entrance, and now your Instagram posts can too! We've "
+"made improvements to the way photos are loaded into the feed, adding a smooth "
+"transition to display photos subtly rather than suddenly. We've also made enhacements "
+"to other interactive elements - such as hovering over a photo or using the carousel - "
+"to create a more refined experience."
+msgstr ""
+
+#: inc/admin/main.php:294
+msgid "Combine Multiple Feed Types"
+msgstr ""
+
+#: inc/admin/main.php:301
+msgid ""
+"Ever wanted to combine a User feed with a Hashtag feed? Well now you can, thanks to "
+"the new mixed feed setting."
+msgstr ""
+
+#: inc/admin/main.php:304
+msgid ""
+"To display multiple feed types in a single feed, use <code>type=mixed</code> in your "
+"shortcode and then add each user name, hashtag, location, or single post IDs into the "
+"shortcode. For example: <code>[instagram-feed type=mixed user=\"smashballoon\" hashtag="
+"\"#awesomeplugins\"]</code>. This will combine a user feed and a hashtag feed into the "
+"same feed."
+msgstr ""
+
+#: inc/admin/main.php:312
+msgid "Two-row Carousels and Infinite Looping"
+msgstr ""
+
+#: inc/admin/main.php:319
+msgid ""
+"Feeling like one row in your carousel just isn't enough? Well now you can double up on "
+"carousel goodness with two rows of posts. We've also added inifinte looping so your "
+"users can keep on scrolling through your posts till their hands fall off."
+msgstr ""
+
+#: inc/admin/main.php:322
+msgid ""
+"To find the new options, go to <i>Customize > General > Layout</i> and select "
+"\"Carousel\". There you can change the \"Number of Rows\" and the \"Loop Type\" "
+"settings. To use these only for a specific feed, use the <code>carouselrows=2</code> "
+"and <code>carouselloop=infinity</code> shortcode options."
+msgstr ""
+
+#: inc/admin/main.php:329
+msgid "More Header Options"
+msgstr ""
+
+#: inc/admin/main.php:336
+msgid ""
+"Websites come in all shapes and sizes and so headers should too. That's why we've "
+"added some additional options to allow you to customize your feed header even further."
+msgstr ""
+
+#: inc/admin/main.php:338 inc/admin/main.php:2525
+msgid "Header Size"
+msgstr ""
+
+#: inc/admin/main.php:339
+msgid ""
+"Now you can select a Small, Medium, or Large size for your header using the following "
+"setting: <i>Customize > General > Header > Header Size</i>, or the <code>headersize</"
+"code> shortcode option."
+msgstr ""
+
+#: inc/admin/main.php:340
+msgid "Centered Header"
+msgstr ""
+
+#: inc/admin/main.php:341
+msgid ""
+"We've added a Centered header style for the times when left-justified just doesn't "
+"feel right. Just use the setting at <i>Customize > General > Header > Header Style</"
+"i>, or the <code>headerstyle=centered</code> shortcode option."
+msgstr ""
+
+#: inc/admin/main.php:348
+msgid "Reorganized Settings Pages"
+msgstr ""
+
+#: inc/admin/main.php:355
+msgid ""
+"Due to all the goodness we've been adding lately the settings pages were getting a "
+"little cluttered. We've spent some time cleaning things up and reorganizing the "
+"settings to make finding settings to customize your feeds even easier than ever."
+msgstr ""
+
+#: inc/admin/main.php:360 inc/admin/main.php:490
+#, php-format
+msgid "Your friends %s"
+msgstr ""
+
+#: inc/admin/main.php:365
+msgid "Disable welcome page"
+msgstr ""
+
+#: inc/admin/main.php:380
+msgid "Your first time using the plugin? Let's help you get started..."
+msgstr ""
+
+#: inc/admin/main.php:390
+msgid "Activate Your License Key"
+msgstr ""
+
+#: inc/admin/main.php:391
+#, php-format
+msgid ""
+"In order to receive updates for the plugin you'll need to activate your license key by "
+"entering it %s."
+msgstr ""
+
+#: inc/admin/main.php:402 inc/admin/main.php:1655 inc/admin/main.php:1657
+msgid "Connect an Instagram Account"
+msgstr ""
+
+#: inc/admin/main.php:403
+#, php-format
+msgid ""
+"We've made configuring your feed super simple. Just use the big blue button on the "
+"plugin's %s to connect your Instagram account."
+msgstr ""
+
+#: inc/admin/main.php:403
+msgid "Settings page"
+msgstr ""
+
+#: inc/admin/main.php:414
+msgid "Select your Feed Type"
+msgstr ""
+
+#: inc/admin/main.php:415
+msgid "Choose to display posts from a user account, hashtag, or both."
+msgstr ""
+
+#: inc/admin/main.php:426 inc/admin/main.php:1764
+msgid "Display Your Feed"
+msgstr ""
+
+#: inc/admin/main.php:427
+#, php-format
+msgid ""
+"To display your feed simply copy and paste the %s shortcode wherever you want the feed "
+"to show up; any page, post, or widget. It really is that simple!"
+msgstr ""
+
+#: inc/admin/main.php:428
+#, php-format
+msgid "Need more help? See our %s."
+msgstr ""
+
+#: inc/admin/main.php:428 inc/admin/main.php:485
+msgid "Support Section"
+msgstr ""
+
+#: inc/admin/main.php:440 inc/admin/main.php:3415
+msgid "Multiple Feeds"
+msgstr ""
+
+#: inc/admin/main.php:441
+#, php-format
+msgid ""
+"You can display as many feeds on your site as you'd like. Just use our handy %s to "
+"customize each one as needed."
+msgstr ""
+
+#: inc/admin/main.php:441
+msgid "shortcode options"
+msgstr ""
+
+#: inc/admin/main.php:443
+msgid "More help"
+msgstr ""
+
+#: inc/admin/main.php:454
+msgid "Customize Your Feed"
+msgstr ""
+
+#: inc/admin/main.php:455
+msgid ""
+"There are countless ways to customize your Instagram feed. Whether it be translating "
+"the text, changing layouts and colors, or using powerful custom code snippets."
+msgstr ""
+
+#: inc/admin/main.php:457 inc/admin/main.php:2209 inc/admin/main.php:2259
+msgid "Layout"
+msgstr ""
+
+#: inc/admin/main.php:458
+msgid ""
+"Choose from different feed types, change the layout, and even display your content in "
+"a rotating carousel."
+msgstr ""
+
+#: inc/admin/main.php:460
+msgid "Find out more:"
+msgstr ""
+
+#: inc/admin/main.php:461
+msgid "Creating carousels"
+msgstr ""
+
+#: inc/admin/main.php:464
+msgid "Styling options"
+msgstr ""
+
+#: inc/admin/main.php:465
+msgid ""
+"Choose which information to show or hide, customize colors and text, and style each "
+"individual part of your feed."
+msgstr ""
+
+#: inc/admin/main.php:465
+msgid "Go to the Customize page"
+msgstr ""
+
+#: inc/admin/main.php:467
+msgid "Advanced Customizations"
+msgstr ""
+
+#: inc/admin/main.php:468
+msgid ""
+"You can achieve some pretty advanced customizations using the plugin. Here's some "
+"examples:"
+msgstr ""
+
+#: inc/admin/main.php:470
+msgid "Moderating your feed"
+msgstr ""
+
+#: inc/admin/main.php:471
+msgid "Filtering posts by word or hashtag"
+msgstr ""
+
+#: inc/admin/main.php:472
+msgid "Creating a \"Shoppable\" feed"
+msgstr ""
+
+#: inc/admin/main.php:484
+msgid "Need some more help?"
+msgstr ""
+
+#: inc/admin/main.php:485
+#, php-format
+msgid "Check out our %s which includes helpful links, a tutorial video, and more."
+msgstr ""
+
+#: inc/admin/main.php:507
+msgid "Welcome to Instagram Feed Pro"
+msgstr ""
+
+#: inc/admin/main.php:512
+#, php-format
+msgid ""
+"Thanks for installing <b>Version %s</b> of the Instagram Feed Pro plugin! Use the tabs "
+"below to see what's new or to get started using the plugin."
+msgstr ""
+
+#: inc/admin/main.php:713 inc/admin/main.php:1622
+msgid "Instagram Feed Pro"
+msgstr ""
+
+#: inc/admin/main.php:721 inc/admin/main.php:1633
+msgid "1. Configure"
+msgstr ""
+
+#: inc/admin/main.php:722 inc/admin/main.php:1634
+msgid "2. Customize"
+msgstr ""
+
+#: inc/admin/main.php:723 inc/admin/main.php:1636
+msgid "3. Display Your Feed"
+msgstr ""
+
+#: inc/admin/main.php:724 inc/admin/main.php:1637
+msgid "Support"
+msgstr ""
+
+#: inc/admin/main.php:755
+msgid "Enter your license key"
+msgstr ""
+
+#: inc/admin/main.php:764
+msgid "Deactivate License"
+msgstr ""
+
+#: inc/admin/main.php:767 inc/admin/main.php:777
+msgid "Expired"
+msgstr ""
+
+#: inc/admin/main.php:769
+msgid "Active"
+msgstr ""
+
+#: inc/admin/main.php:774
+msgid "Activate License"
+msgstr ""
+
+#: inc/admin/main.php:779
+msgid "Inactive"
+msgstr ""
+
+#: inc/admin/main.php:786
+msgid "The license key you received when purchasing the plugin."
+msgstr ""
+
+#: inc/admin/main.php:789
+msgid "Renew your license"
+msgstr ""
+
+#: inc/admin/main.php:791
+msgid "Upgrade your license"
+msgstr ""
+
+#: inc/admin/main.php:793
+msgid "You can upgrade your license in two ways:"
+msgstr ""
+
+#: inc/admin/main.php:794
+#, php-format
+msgid "Log into %s and click on the 'Upgrade my License' tab"
+msgstr ""
+
+#: inc/admin/main.php:794
+msgid "your Account"
+msgstr ""
+
+#: inc/admin/main.php:795
+msgid "Contact us directly"
+msgstr ""
+
+#: inc/admin/main.php:809
+msgid "Save Changes"
+msgstr ""
+
+#: inc/admin/main.php:810
+msgid "Test Connection"
+msgstr ""
+
+#: inc/admin/main.php:843
+msgid "Loading..."
+msgstr ""
+
+#: inc/admin/main.php:920
+msgid "Load More"
+msgstr ""
+
+#: inc/admin/main.php:963 inc/if-functions.php:671
+msgid "Follow on Instagram"
+msgstr ""
+
+#: inc/admin/main.php:1613
+msgid "Settings saved."
+msgstr ""
+
+#: inc/admin/main.php:1650
+msgid "Configure"
+msgstr ""
+
+#: inc/admin/main.php:1659
+msgid "Button not working?"
+msgstr ""
+
+#: inc/admin/main.php:1680
+msgid "Instagram Accounts"
+msgstr ""
+
+#: inc/admin/main.php:1680
+msgid "Use the button above to connect an Instagram account"
+msgstr ""
+
+#: inc/admin/main.php:1683
+msgid "No Instagram accounts connected. Click the button above to connect an account."
+msgstr ""
+
+#: inc/admin/main.php:1723
+msgid ""
+"The Access Token for this account is expired or invalid. Click the button above to "
+"attempt to renew it."
+msgstr ""
+
+#: inc/admin/main.php:1728
+msgid "Remove"
+msgstr ""
+
+#: inc/admin/main.php:1738
+msgid "Add to Primary Feed"
+msgstr ""
+
+#: inc/admin/main.php:1740
+msgid "Remove from Primary Feed"
+msgstr ""
+
+#: inc/admin/main.php:1742
+msgid "Add to another Feed"
+msgstr ""
+
+#: inc/admin/main.php:1743
+msgid "Show access token and account info"
+msgstr ""
+
+#: inc/admin/main.php:1749
+msgid "Copy and paste this shortcode into your page or widget area"
+msgstr ""
+
+#: inc/admin/main.php:1757
+msgid "To add multiple users in the same feed, simply separate them using commas"
+msgstr ""
+
+#: inc/admin/main.php:1764
+#, php-format
+msgid "Click on the %s tab to learn more about shortcodes"
+msgstr ""
+
+#: inc/admin/main.php:1768
+msgid "Access Token"
+msgstr ""
+
+#: inc/admin/main.php:1768 inc/admin/main.php:1769 inc/admin/main.php:3413
+msgid "To copy, click the field then press Ctrl + C (PC) or Cmd + C (Mac)."
+msgstr ""
+
+#: inc/admin/main.php:1769
+msgid "User ID"
+msgstr ""
+
+#: inc/admin/main.php:1770
+msgid "Permissions"
+msgstr ""
+
+#: inc/admin/main.php:1770 inc/admin/main.php:2772
+msgid "All"
+msgstr ""
+
+#: inc/admin/main.php:1770
+msgid "\"Tagged\" feed type unavailable - "
+msgstr ""
+
+#: inc/admin/main.php:1770
+msgid "connect a business account to enable this feed type"
+msgstr ""
+
+#: inc/admin/main.php:1770
+msgid "reconnect account to enable this feed type"
+msgstr ""
+
+#: inc/admin/main.php:1779
+msgid "Manually Connect an Account"
+msgstr ""
+
+#: inc/admin/main.php:1781
+msgid "Business Profile"
+msgstr ""
+
+#: inc/admin/main.php:1783
+msgid "Please enter the User ID for this Business Profile:"
+msgstr ""
+
+#: inc/admin/main.php:1786
+msgid "Connect This Account"
+msgstr ""
+
+#: inc/admin/main.php:1922
+msgid "Show Photos From"
+msgstr ""
+
+#: inc/admin/main.php:1930
+msgid "User Account"
+msgstr ""
+
+#: inc/admin/main.php:1950 inc/admin/main.php:2030
+msgid "Connect a user account above"
+msgstr ""
+
+#: inc/admin/main.php:1955
+msgid ""
+"In order to display posts from a User account, first connect an account using the "
+"button above."
+msgstr ""
+
+#: inc/admin/main.php:1956
+msgid "Multiple Acounts"
+msgstr ""
+
+#: inc/admin/main.php:1957
+msgid ""
+"It is only possible to display feeds from Instagram accounts which you own. In order "
+"to display feeds from multiple accounts, first connect them above and then use the "
+"buttons to add the account either to your primary feed or to another feed on your site."
+msgstr ""
+
+#: inc/admin/main.php:1960
+msgid "Displaying Posts from Other Instagram Accounts"
+msgstr ""
+
+#: inc/admin/main.php:1961
+msgid ""
+"Due to Instagram restrictions it is not possible to display photos from other "
+"Instagram accounts which you do not have access to. You can only display the user feed "
+"of an account which you connect above. You can connect as many account as you like by "
+"logging in using the button above, or manually copy/pasting an Access Token by "
+"selecting the 'Manually Connect an Account' option."
+msgstr ""
+
+#: inc/admin/main.php:1989
+msgid "Order of Posts"
+msgstr ""
+
+#: inc/admin/main.php:1991
+msgid "Top"
+msgstr ""
+
+#: inc/admin/main.php:1991
+msgid "Most popular first"
+msgstr ""
+
+#: inc/admin/main.php:1994
+msgid "Recent"
+msgstr ""
+
+#: inc/admin/main.php:1994
+msgid "Within 24 hours initially"
+msgstr ""
+
+#: inc/admin/main.php:1996
+msgid ""
+"Instagram only returns the most recent hashtag posts from the past 24 hour period, so "
+"initially only posts from the last 24 hours will be displayed. The plugin then stores "
+"these posts so that they can continue to be displayed indefinitely, creating a "
+"permanent feed of your posts."
+msgstr ""
+
+#: inc/admin/main.php:2000
+msgid ""
+"Display photos from a specific hashtag instead of from a user. Separate multiple "
+"hashtags using commas."
+msgstr ""
+
+#: inc/admin/main.php:2000
+msgid ""
+"To display a hashtag feed, it is required that you first connect an Instagram Business "
+"Profile using the"
+msgstr ""
+
+#: inc/admin/main.php:2000
+msgid "button above"
+msgstr ""
+
+#: inc/admin/main.php:2000 inc/admin/main.php:2033
+msgid "Why is this required?"
+msgstr ""
+
+#: inc/admin/main.php:2003
+msgid "Hashtag Feeds now require a Business Profile to be connected."
+msgstr ""
+
+#: inc/admin/main.php:2033
+msgid ""
+"Display photos that an account has been tagged in. Separate multiple user names using "
+"commas."
+msgstr ""
+
+#: inc/admin/main.php:2033
+msgid ""
+"To display a tagged feed, it is required that you first connect an Instagram Business "
+"Profile using the"
+msgstr ""
+
+#: inc/admin/main.php:2033
+msgid ""
+"button above. This account must have been connected or reconnected after version 5.2 "
+"of the Pro version or 2.1 of the Free version"
+msgstr ""
+
+#: inc/admin/main.php:2046
+#, php-format
+msgid ""
+"To display multiple feed types in a single feed, use %s in your shortcode and then add "
+"the user name or hashtag for each feed into the shortcode, like so: %s. This will "
+"combine a user feed and a hashtag feed into the same feed."
+msgstr ""
+
+#: inc/admin/main.php:2085
+msgid "Preserve settings when plugin is removed"
+msgstr ""
+
+#: inc/admin/main.php:2088 inc/admin/main.php:3220 inc/admin/main.php:3282
+#: inc/admin/main.php:3366 inc/admin/main.php:3375
+msgid "Yes"
+msgstr ""
+
+#: inc/admin/main.php:2090
+msgid ""
+"When removing the plugin your settings are automatically erased. Checking this box "
+"will prevent any settings from being deleted. This means that you can uninstall and "
+"reinstall the plugin without losing your settings."
+msgstr ""
+
+#: inc/admin/main.php:2096
+msgid "Check for new posts"
+msgstr ""
+
+#: inc/admin/main.php:2101
+msgid "When the page loads"
+msgstr ""
+
+#: inc/admin/main.php:2103
+msgid ""
+"Your Instagram post data is temporarily cached by the plugin in your WordPress "
+"database. There are two ways that you can set the plugin to check for new data"
+msgstr ""
+
+#: inc/admin/main.php:2104
+msgid ""
+"<b>1. When the page loads</b><br>Selecting this option means that when the cache "
+"expires then the plugin will check Instagram for new posts the next time that the feed "
+"is loaded. You can choose how long this data should be cached for. If you set the time "
+"to 60 minutes then the plugin will clear the cached data after that length of time, "
+"and the next time the page is viewed it will check for new data. <b>Tip:</b> If you're "
+"experiencing an issue with the plugin not updating automatically then try enabling the "
+"setting labeled <b>'Force cache to clear on interval'</b> which is located on the "
+"'Customize' tab."
+msgstr ""
+
+#: inc/admin/main.php:2106
+msgid ""
+"<b>2. In the background</b><br>Selecting this option means that the plugin will check "
+"for new data in the background so that the feed is updated behind the scenes. You can "
+"select at what time and how often the plugin should check for new data using the "
+"settings below. <b>Please note</b> that the plugin will initially check for data from "
+"Instagram when the page first loads, but then after that will check in the background "
+"on the schedule selected - unless the cache is cleared.</p>"
+msgstr ""
+
+#: inc/admin/main.php:2109
+msgid "Every"
+msgstr ""
+
+#: inc/admin/main.php:2112
+msgid "Minutes"
+msgstr ""
+
+#: inc/admin/main.php:2113
+msgid "Hours"
+msgstr ""
+
+#: inc/admin/main.php:2114
+msgid "Days"
+msgstr ""
+
+#: inc/admin/main.php:2116 inc/admin/main.php:2232 inc/admin/main.php:3221
+#: inc/admin/main.php:3230 inc/admin/main.php:3234 inc/admin/main.php:3238
+#: inc/admin/main.php:3248 inc/admin/main.php:3259 inc/admin/main.php:3270
+#: inc/admin/main.php:3286 inc/admin/main.php:3296 inc/admin/main.php:3305
+#: inc/admin/main.php:3314 inc/admin/main.php:3323 inc/admin/main.php:3332
+#: inc/admin/main.php:3350 inc/admin/main.php:3358 inc/admin/main.php:3367
+#: inc/admin/main.php:3376 inc/admin/main.php:3386
+msgid "What does this mean?"
+msgstr ""
+
+#: inc/admin/main.php:2117
+msgid ""
+"Your Instagram posts are temporarily cached by the plugin in your WordPress database. "
+"You can choose how long the posts should be cached for. If you set the time to 1 hour "
+"then the plugin will clear the cache after that length of time and check Instagram for "
+"posts again."
+msgstr ""
+
+#: inc/admin/main.php:2122
+msgid "In the background"
+msgstr ""
+
+#: inc/admin/main.php:2127 instagram-feed.php:156
+msgid "Every 30 minutes"
+msgstr ""
+
+#: inc/admin/main.php:2128
+msgid "Every hour"
+msgstr ""
+
+#: inc/admin/main.php:2129
+msgid "Every 12 hours"
+msgstr ""
+
+#: inc/admin/main.php:2130
+msgid "Every 24 hours"
+msgstr ""
+
+#: inc/admin/main.php:2134
+msgid "at"
+msgstr ""
+
+#: inc/admin/main.php:2165
+msgid "every 30 minutes"
+msgstr ""
+
+#: inc/admin/main.php:2166
+msgid "every 12 hours"
+msgstr ""
+
+#: inc/admin/main.php:2168
+msgid "Next check"
+msgstr ""
+
+#: inc/admin/main.php:2168
+msgid ""
+"Note: Saving the settings on this page will clear the cache and reset this schedule"
+msgstr ""
+
+#: inc/admin/main.php:2170
+msgid "Nothing currently scheduled"
+msgstr ""
+
+#: inc/admin/main.php:2185
+#, php-format
+msgid "Next Step: %s"
+msgstr ""
+
+#: inc/admin/main.php:2185
+msgid "Customize your Feed"
+msgstr ""
+
+#: inc/admin/main.php:2186 inc/admin/main.php:3405 inc/admin/main.php:3824
+#, php-format
+msgid "Need help setting up the plugin? Check out our %s"
+msgstr ""
+
+#: inc/admin/main.php:2186 inc/admin/main.php:3405 inc/admin/main.php:3824
+msgid "setup directions"
+msgstr ""
+
+#: inc/admin/main.php:2196 inc/admin/main.php:2208 inc/admin/main.php:2217
+msgid "General"
+msgstr ""
+
+#: inc/admin/main.php:2197
+msgid "Posts"
+msgstr ""
+
+#: inc/admin/main.php:2198 inc/admin/main.php:2993 inc/admin/main.php:3049
+msgid "Moderation"
+msgstr ""
+
+#: inc/admin/main.php:2199
+msgid "Advanced"
+msgstr ""
+
+#: inc/admin/main.php:2207 inc/admin/main.php:2709 inc/admin/main.php:2991
+#: inc/admin/main.php:3170
+msgid "Jump to:"
+msgstr ""
+
+#: inc/admin/main.php:2210 inc/admin/main.php:2472
+msgid "Header"
+msgstr ""
+
+#: inc/admin/main.php:2211 inc/admin/main.php:2594
+msgid "'Load More' Button"
+msgstr ""
+
+#: inc/admin/main.php:2212 inc/admin/main.php:2658
+msgid "'Follow' Button"
+msgstr ""
+
+#: inc/admin/main.php:2222
+msgid "Width of Feed"
+msgstr ""
+
+#: inc/admin/main.php:2227 inc/admin/main.php:2243 inc/admin/main.php:2461
+msgid "px"
+msgstr ""
+
+#: inc/admin/main.php:2228 inc/admin/main.php:2244 inc/admin/main.php:2462
+msgid "%"
+msgstr ""
+
+#: inc/admin/main.php:2231
+msgid "Set to be 100% width on mobile?"
+msgstr ""
+
+#: inc/admin/main.php:2233
+#, php-format
+msgid ""
+"If you set a width on the feed then this will be used on mobile as well as desktop. "
+"Check this setting to set the feed width to be 100% on mobile so that it is responsive."
+msgstr ""
+
+#: inc/admin/main.php:2238
+msgid "Height of Feed"
+msgstr ""
+
+#: inc/admin/main.php:2249
+msgid "Background Color"
+msgstr ""
+
+#: inc/admin/main.php:2266
+msgid "Grid"
+msgstr ""
+
+#: inc/admin/main.php:2267
+msgid "Carousel"
+msgstr ""
+
+#: inc/admin/main.php:2268
+msgid "Masonry"
+msgstr ""
+
+#: inc/admin/main.php:2269
+msgid "Highlight"
+msgstr ""
+
+#: inc/admin/main.php:2280
+msgid "Layout Type"
+msgstr ""
+
+#: inc/admin/main.php:2293
+msgid "A uniform grid of square-cropped images."
+msgstr ""
+
+#: inc/admin/main.php:2296
+msgid "Images in their original aspect ratios with no vertical space between posts."
+msgstr ""
+
+#: inc/admin/main.php:2300
+msgid "Posts are displayed in a slideshow carousel."
+msgstr ""
+
+#: inc/admin/main.php:2304
+msgid "Number of Rows"
+msgstr ""
+
+#: inc/admin/main.php:2315
+msgid "Loop Type"
+msgstr ""
+
+#: inc/admin/main.php:2320
+msgid "Rewind"
+msgstr ""
+
+#: inc/admin/main.php:2321
+msgid "Infinity"
+msgstr ""
+
+#: inc/admin/main.php:2326
+msgid "Show Navigation Arrows"
+msgstr ""
+
+#: inc/admin/main.php:2331
+msgid "Show Pagination"
+msgstr ""
+
+#: inc/admin/main.php:2336
+msgid "Enable Autoplay"
+msgstr ""
+
+#: inc/admin/main.php:2340
+msgid "Interval Time"
+msgstr ""
+
+#: inc/admin/main.php:2343
+msgid "miliseconds"
+msgstr ""
+
+#: inc/admin/main.php:2349
+msgid ""
+"Masonry style, square-cropped, image only (no captions or likes/comments below image). "
+"\"Highlighted\" posts are twice as large."
+msgstr ""
+
+#: inc/admin/main.php:2352
+msgid "Highlighting Type"
+msgstr ""
+
+#: inc/admin/main.php:2356 inc/admin/main.php:2368
+msgid "Pattern"
+msgstr ""
+
+#: inc/admin/main.php:2357
+msgid "Post ID"
+msgstr ""
+
+#: inc/admin/main.php:2358
+msgid "Hashtag"
+msgstr ""
+
+#: inc/admin/main.php:2362
+msgid "Offset"
+msgstr ""
+
+#: inc/admin/main.php:2371
+msgid "Highlight every"
+msgstr ""
+
+#: inc/admin/main.php:2371
+msgid "posts"
+msgstr ""
+
+#: inc/admin/main.php:2374
+msgid "Highlight Posts with these Hashtags"
+msgstr ""
+
+#: inc/admin/main.php:2375 inc/admin/main.php:2388 inc/admin/main.php:2404
+#: inc/admin/main.php:2567 inc/admin/main.php:2583 inc/admin/main.php:2639
+#: inc/admin/main.php:2648 inc/admin/main.php:2873 inc/admin/main.php:2966
+#: inc/admin/main.php:2976 inc/admin/main.php:3018 inc/admin/main.php:3040
+#: inc/admin/main.php:3058 inc/admin/main.php:3070 inc/admin/main.php:3081
+#: inc/admin/main.php:3101 inc/admin/main.php:3135
+msgid "What is this?"
+msgstr ""
+
+#: inc/admin/main.php:2377
+msgid "Separate multiple hashtags using commas"
+msgstr ""
+
+#: inc/admin/main.php:2380
+msgid ""
+"You can use this setting to highlight posts by a hashtag. Use a specified hashtag in "
+"your posts and they will be automatically highlighted in your feed."
+msgstr ""
+
+#: inc/admin/main.php:2383
+msgid "Highlight Posts by ID"
+msgstr ""
+
+#: inc/admin/main.php:2386 inc/admin/main.php:3068
+msgid "Separate IDs using commas"
+msgstr ""
+
+#: inc/admin/main.php:2389
+msgid ""
+"You can use this setting to highlight posts by their ID. Enable and use \"moderation "
+"mode\", check the box to show post IDs underneath posts, then copy and paste IDs into "
+"this text box."
+msgstr ""
+
+#: inc/admin/main.php:2399
+msgid "Number of Photos"
+msgstr ""
+
+#: inc/admin/main.php:2403
+msgid "Number of photos to show initially"
+msgstr ""
+
+#: inc/admin/main.php:2405
+msgid ""
+"This is the number of photos which will be displayed initially and also the number "
+"which will be loaded in when you click on the 'Load More' button in your feed. For "
+"optimal performance it is recommended not to set this higher than 50."
+msgstr ""
+
+#: inc/admin/main.php:2407 inc/admin/main.php:2433
+msgid "Show Mobile Options"
+msgstr ""
+
+#: inc/admin/main.php:2410
+msgid "Number of Photos on Mobile"
+msgstr ""
+
+#: inc/admin/main.php:2412
+msgid "Leave blank to use the same as above"
+msgstr ""
+
+#: inc/admin/main.php:2417
+msgid "Number of Columns"
+msgstr ""
+
+#: inc/admin/main.php:2421 inc/admin/main.php:2441
+msgid "1"
+msgstr ""
+
+#: inc/admin/main.php:2422 inc/admin/main.php:2442
+msgid "2"
+msgstr ""
+
+#: inc/admin/main.php:2423 inc/admin/main.php:2443
+msgid "3"
+msgstr ""
+
+#: inc/admin/main.php:2424 inc/admin/main.php:2444
+msgid "4"
+msgstr ""
+
+#: inc/admin/main.php:2425 inc/admin/main.php:2445
+msgid "5"
+msgstr ""
+
+#: inc/admin/main.php:2426 inc/admin/main.php:2446
+msgid "6"
+msgstr ""
+
+#: inc/admin/main.php:2427 inc/admin/main.php:2447
+msgid "7"
+msgstr ""
+
+#: inc/admin/main.php:2428
+msgid "8"
+msgstr ""
+
+#: inc/admin/main.php:2429
+msgid "9"
+msgstr ""
+
+#: inc/admin/main.php:2430
+msgid "10"
+msgstr ""
+
+#: inc/admin/main.php:2437
+msgid "Number of Columns on Mobile"
+msgstr ""
+
+#: inc/admin/main.php:2439
+msgid "Auto"
+msgstr ""
+
+#: inc/admin/main.php:2440
+msgid "Same as desktop"
+msgstr ""
+
+#: inc/admin/main.php:2449
+msgid "What does \"Auto\" mean?"
+msgstr ""
+
+#: inc/admin/main.php:2450
+msgid ""
+"This means that the plugin will automatically calculate how many columns to use for "
+"mobile based on the screen size and number of columns selected above. For example, a "
+"feed which is set to use 4 columns will show 2 columns for screen sizes less than 640 "
+"pixels and 1 column for screen sizes less than 480 pixels."
+msgstr ""
+
+#: inc/admin/main.php:2457
+msgid "Padding around Images"
+msgstr ""
+
+#: inc/admin/main.php:2476
+msgid "Show Feed Header"
+msgstr ""
+
+#: inc/admin/main.php:2493
+msgid "Header Style"
+msgstr ""
+
+#: inc/admin/main.php:2497
+msgid "Standard"
+msgstr ""
+
+#: inc/admin/main.php:2498
+msgid "Boxed"
+msgstr ""
+
+#: inc/admin/main.php:2499
+msgid "Centered"
+msgstr ""
+
+#: inc/admin/main.php:2502
+msgid "Please select 2 background colors for your Boxed header:"
+msgstr ""
+
+#: inc/admin/main.php:2505
+msgid "Primary Color"
+msgstr ""
+
+#: inc/admin/main.php:2514
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/admin/main.php:2520
+msgid "Don't forget to set your text color below."
+msgstr ""
+
+#: inc/admin/main.php:2529
+msgid "Small"
+msgstr ""
+
+#: inc/admin/main.php:2530
+msgid "Medium"
+msgstr ""
+
+#: inc/admin/main.php:2531
+msgid "Large"
+msgstr ""
+
+#: inc/admin/main.php:2538
+msgid "Show Number of Followers"
+msgstr ""
+
+#: inc/admin/main.php:2542 inc/admin/main.php:2550
+msgid "This only applies when displaying photos from a User ID"
+msgstr ""
+
+#: inc/admin/main.php:2546
+msgid "Show Bio Text"
+msgstr ""
+
+#: inc/admin/main.php:2555
+msgid "Header Text Color"
+msgstr ""
+
+#: inc/admin/main.php:2563
+msgid "Display Outside the Scrollable Area"
+msgstr ""
+
+#: inc/admin/main.php:2568
+msgid ""
+"This positions the Header outside of the feed container. It is useful if your feed has "
+"a vertical scrollbar as it places it outside of the scrollable area and fixes it at "
+"the top."
+msgstr ""
+
+#: inc/admin/main.php:2573
+msgid "Include Stories"
+msgstr ""
+
+#: inc/admin/main.php:2579
+msgid "Slide Change Interval"
+msgstr ""
+
+#: inc/admin/main.php:2584
+msgid ""
+"This is the number of milliseconds that an image story slide will display before "
+"displaying the next slide. Videos always change when the video is finished"
+msgstr ""
+
+#: inc/admin/main.php:2598
+msgid "Show the 'Load More' button"
+msgstr ""
+
+#: inc/admin/main.php:2614 inc/admin/main.php:2678
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/admin/main.php:2621 inc/admin/main.php:2685
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/admin/main.php:2628 inc/admin/main.php:2692
+msgid "Button Text"
+msgstr ""
+
+#: inc/admin/main.php:2635
+msgid "Autoload more posts on scroll"
+msgstr ""
+
+#: inc/admin/main.php:2640
+msgid ""
+"This will make every Instagram feed load more posts as the user gets to the bottom of "
+"the feed. To enable this on only a specific feed use the autoscroll=true shortcode "
+"option."
+msgstr ""
+
+#: inc/admin/main.php:2644
+msgid "Scroll Trigger Distance"
+msgstr ""
+
+#: inc/admin/main.php:2649
+msgid ""
+"This is the distance in pixels from the bottom of the page the user must scroll to to "
+"trigger the loading of more posts."
+msgstr ""
+
+#: inc/admin/main.php:2662
+msgid "Show the Follow button"
+msgstr ""
+
+#: inc/admin/main.php:2710 inc/admin/main.php:2720
+msgid "Photos"
+msgstr ""
+
+#: inc/admin/main.php:2711 inc/admin/main.php:2800
+msgid "Photo Hover Style"
+msgstr ""
+
+#: inc/admin/main.php:2712 inc/admin/main.php:2842 inc/admin/main.php:2857
+msgid "Caption"
+msgstr ""
+
+#: inc/admin/main.php:2713 inc/admin/main.php:2910
+msgid "Likes &amp; Comments Icons"
+msgstr ""
+
+#: inc/admin/main.php:2714 inc/admin/main.php:2954
+msgid "Lightbox Comments"
+msgstr ""
+
+#: inc/admin/main.php:2725
+msgid "Sort Photos By"
+msgstr ""
+
+#: inc/admin/main.php:2729
+msgid "Newest to oldest"
+msgstr ""
+
+#: inc/admin/main.php:2730
+msgid "Random"
+msgstr ""
+
+#: inc/admin/main.php:2736
+msgid "Image Resolution"
+msgstr ""
+
+#: inc/admin/main.php:2754
+msgid "Auto-detect (recommended)"
+msgstr ""
+
+#: inc/admin/main.php:2755
+msgid "Thumbnail (150x150)"
+msgstr ""
+
+#: inc/admin/main.php:2756
+msgid "Medium (320x320)"
+msgstr ""
+
+#: inc/admin/main.php:2757
+msgid "Full size (640x640)"
+msgstr ""
+
+#: inc/admin/main.php:2760
+msgid "What does Auto-detect mean?"
+msgstr ""
+
+#: inc/admin/main.php:2761
+msgid ""
+"Auto-detect means that the plugin automatically sets the image resolution based on the "
+"size of your feed."
+msgstr ""
+
+#: inc/admin/main.php:2766
+msgid "Media Type to Display"
+msgstr ""
+
+#: inc/admin/main.php:2773
+msgid "Photos only"
+msgstr ""
+
+#: inc/admin/main.php:2774
+msgid "Videos only"
+msgstr ""
+
+#: inc/admin/main.php:2780
+msgid "Disable Pop-up Lightbox"
+msgstr ""
+
+#: inc/admin/main.php:2788
+msgid "Link Posts to URL in Caption (Shoppable feed)"
+msgstr ""
+
+#: inc/admin/main.php:2792
+msgid "What will this do?"
+msgstr ""
+
+#: inc/admin/main.php:2793
+#, php-format
+msgid ""
+"Checking this box will change the link for each post to any url included in the "
+"caption for that Instagram post. The lightbox will be disabled. Visit %s to learn how "
+"this works."
+msgstr ""
+
+#: inc/admin/main.php:2793
+msgid "this link"
+msgstr ""
+
+#: inc/admin/main.php:2805
+msgid "Hover Background Color"
+msgstr ""
+
+#: inc/admin/main.php:2812
+msgid "Hover Text Color"
+msgstr ""
+
+#: inc/admin/main.php:2819
+msgid "Information to display"
+msgstr ""
+
+#: inc/admin/main.php:2826
+msgid "Username"
+msgstr ""
+
+#: inc/admin/main.php:2826 inc/admin/main.php:2830
+msgid "User feeds only"
+msgstr ""
+
+#: inc/admin/main.php:2830
+msgid "Date"
+msgstr ""
+
+#: inc/admin/main.php:2834
+msgid "Instagram Icon/Link"
+msgstr ""
+
+#: inc/admin/main.php:2838
+msgid "Location"
+msgstr ""
+
+#: inc/admin/main.php:2838
+msgid "User feeds from personal accounts only"
+msgstr ""
+
+#: inc/admin/main.php:2846
+msgid "Like/Comment Icons"
+msgstr ""
+
+#: inc/admin/main.php:2862
+msgid "Show Caption"
+msgstr ""
+
+#: inc/admin/main.php:2869
+msgid "Maximum Text Length"
+msgstr ""
+
+#: inc/admin/main.php:2874
+msgid ""
+"The number of characters of text to display in the caption. An elipsis link will be "
+"added to allow the user to reveal more text if desired."
+msgstr ""
+
+#: inc/admin/main.php:2878
+msgid "Text Color"
+msgstr ""
+
+#: inc/admin/main.php:2885
+msgid "Text Size"
+msgstr ""
+
+#: inc/admin/main.php:2889 inc/admin/main.php:2933
+msgid "Inherit from theme"
+msgstr ""
+
+#: inc/admin/main.php:2890 inc/admin/main.php:2934
+msgid "10px"
+msgstr ""
+
+#: inc/admin/main.php:2891 inc/admin/main.php:2935
+msgid "11px"
+msgstr ""
+
+#: inc/admin/main.php:2892 inc/admin/main.php:2936
+msgid "12px"
+msgstr ""
+
+#: inc/admin/main.php:2893 inc/admin/main.php:2937
+msgid "13px"
+msgstr ""
+
+#: inc/admin/main.php:2894 inc/admin/main.php:2938
+msgid "14px"
+msgstr ""
+
+#: inc/admin/main.php:2895 inc/admin/main.php:2939
+msgid "16px"
+msgstr ""
+
+#: inc/admin/main.php:2896 inc/admin/main.php:2940
+msgid "18px"
+msgstr ""
+
+#: inc/admin/main.php:2897 inc/admin/main.php:2941
+msgid "20px"
+msgstr ""
+
+#: inc/admin/main.php:2898 inc/admin/main.php:2942
+msgid "24px"
+msgstr ""
+
+#: inc/admin/main.php:2899 inc/admin/main.php:2943
+msgid "28px"
+msgstr ""
+
+#: inc/admin/main.php:2900 inc/admin/main.php:2944
+msgid "32px"
+msgstr ""
+
+#: inc/admin/main.php:2901 inc/admin/main.php:2945
+msgid "36px"
+msgstr ""
+
+#: inc/admin/main.php:2902 inc/admin/main.php:2946
+msgid "40px"
+msgstr ""
+
+#: inc/admin/main.php:2915
+msgid "Show Icons"
+msgstr ""
+
+#: inc/admin/main.php:2922
+msgid "Icon Color"
+msgstr ""
+
+#: inc/admin/main.php:2929
+msgid "Icon Size"
+msgstr ""
+
+#: inc/admin/main.php:2955
+msgid "Comments available for user feeds only"
+msgstr ""
+
+#: inc/admin/main.php:2961
+msgid "Show Comments in Lightbox"
+msgstr ""
+
+#: inc/admin/main.php:2965
+msgid "Clear Comment Cache"
+msgstr ""
+
+#: inc/admin/main.php:2967
+msgid "This will remove the cached comments saved in the database"
+msgstr ""
+
+#: inc/admin/main.php:2971
+msgid "Number of Comments"
+msgstr ""
+
+#: inc/admin/main.php:2975
+msgid "Max number of latest comments."
+msgstr ""
+
+#: inc/admin/main.php:2977
+msgid ""
+"This is the maximum number of comments that will be shown in the lightbox. If there "
+"are more comments available than the number set, only the latest comments will be shown"
+msgstr ""
+
+#: inc/admin/main.php:2992 inc/admin/main.php:2999
+msgid "Post Filtering"
+msgstr ""
+
+#: inc/admin/main.php:3003
+msgid "Remove photos containing these words or hashtags"
+msgstr ""
+
+#: inc/admin/main.php:3013 inc/admin/main.php:3035
+#, php-format
+msgid "Add this to the shortcode for your feed %s"
+msgstr ""
+
+#: inc/admin/main.php:3016 inc/admin/main.php:3038
+msgid "Separate words/hashtags using commas"
+msgstr ""
+
+#: inc/admin/main.php:3019
+msgid ""
+"You can use this setting to remove photos which contain certain words or hashtags in "
+"the caption. Separate multiple words or hashtags using commas."
+msgstr ""
+
+#: inc/admin/main.php:3025
+msgid "Show photos containing these words or hashtags"
+msgstr ""
+
+#: inc/admin/main.php:3041
+#, php-format
+msgid ""
+"You can use this setting to only show photos which contain certain words or hashtags "
+"in the caption. For example, adding %s will show any photos which contain either the "
+"word sheep, cow, or dog. Separate multiple words or hashtags using commas."
+msgstr ""
+
+#: inc/admin/main.php:3041
+msgid "sheep, cow, dog"
+msgstr ""
+
+#: inc/admin/main.php:3053
+msgid "Moderation Type"
+msgstr ""
+
+#: inc/admin/main.php:3059
+msgid "Visual Moderation Mode"
+msgstr ""
+
+#: inc/admin/main.php:3059
+#, php-format
+msgid ""
+"This adds a button to each feed that will allow you to hide posts, and create white "
+"lists from the front end using a visual interface. Visit %s for details"
+msgstr ""
+
+#: inc/admin/main.php:3065
+msgid "Hide specific photos"
+msgstr ""
+
+#: inc/admin/main.php:3071
+msgid ""
+"You can use this setting to hide specific photos in your feed. Just click the 'Hide "
+"Photo' link in the photo pop-up in your feed to get the ID of the photo, then copy and "
+"paste it into this text box."
+msgstr ""
+
+#: inc/admin/main.php:3075
+msgid "Block users"
+msgstr ""
+
+#: inc/admin/main.php:3079 inc/admin/main.php:3099
+msgid "Separate usernames using commas"
+msgstr ""
+
+#: inc/admin/main.php:3082
+msgid ""
+"You can use this setting to block photos from certain users in your feed. Just enter "
+"the usernames here which you want to block. Separate multiple usernames using commas."
+msgstr ""
+
+#: inc/admin/main.php:3093
+msgid "Only show posts by these users"
+msgstr ""
+
+#: inc/admin/main.php:3102
+msgid ""
+"You can use this setting to show photos only from certain users in your feed. Just "
+"enter the usernames here which you want to show. Separate multiple usernames using "
+"commas."
+msgstr ""
+
+#: inc/admin/main.php:3109
+msgid "White lists"
+msgstr ""
+
+#: inc/admin/main.php:3116 inc/admin/main.php:3935
+msgid "No white lists currently created"
+msgstr ""
+
+#: inc/admin/main.php:3134
+msgid "Clear White Lists"
+msgstr ""
+
+#: inc/admin/main.php:3136
+msgid "This will remove all of the white lists from the database"
+msgstr ""
+
+#: inc/admin/main.php:3171
+msgid "Custom Code"
+msgstr ""
+
+#: inc/admin/main.php:3172 inc/admin/main.php:3211
+msgid "Misc"
+msgstr ""
+
+#: inc/admin/main.php:3178
+msgid "Custom Code Snippets"
+msgstr ""
+
+#: inc/admin/main.php:3184
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/admin/main.php:3185
+msgid "Enter your own custom CSS in the box below"
+msgstr ""
+
+#: inc/admin/main.php:3195
+msgid "Custom JavaScript"
+msgstr ""
+
+#: inc/admin/main.php:3196
+msgid "Enter your own custom JavaScript/jQuery in the box below"
+msgstr ""
+
+#: inc/admin/main.php:3202
+msgid "Note:"
+msgstr ""
+
+#: inc/admin/main.php:3202
+msgid "Custom JavaScript reruns every time more posts are loaded into the feed"
+msgstr ""
+
+#: inc/admin/main.php:3216
+msgid "Are you using an Ajax powered theme?"
+msgstr ""
+
+#: inc/admin/main.php:3222
+msgid ""
+"When navigating your site, if your theme uses Ajax to load content into your pages "
+"(meaning your page doesn't refresh) then check this setting. If you're not sure then "
+"it's best to leave this setting unchecked while checking with your theme author, "
+"otherwise checking it may cause a problem."
+msgstr ""
+
+#: inc/admin/main.php:3227
+msgid "Image Resizing"
+msgstr ""
+
+#: inc/admin/main.php:3230
+msgid "Disable Image Resizing"
+msgstr ""
+
+#: inc/admin/main.php:3231
+msgid "The disables the local storing of image files to use for images in the plugin."
+msgstr ""
+
+#: inc/admin/main.php:3234
+msgid "Favor Local Images"
+msgstr ""
+
+#: inc/admin/main.php:3235
+msgid ""
+"The plugin creates and stores resized versions of images in order to serve a more "
+"optimized resolution size in the feed. Enable this setting to always use these images "
+"if one is available."
+msgstr ""
+
+#: inc/admin/main.php:3237
+msgid "Reset Resized Images"
+msgstr ""
+
+#: inc/admin/main.php:3239
+msgid ""
+"The plugin creates and stores resized versions of images in order to serve a more "
+"optimized resolution size in the feed. The local images and records in custom database "
+"tables are also used to store posts from recent hashtag feeds that are no longer "
+"available from Instagram's API. Click this button to clear all data related to resized "
+"images. Enable the setting to favor local images to always use a local, resized image "
+"if one is available."
+msgstr ""
+
+#: inc/admin/main.php:3244
+msgid "Max concurrent API requests"
+msgstr ""
+
+#: inc/admin/main.php:3249
+msgid ""
+"Change the number of maximum concurrent API requests. This is not recommended unless "
+"directed by a member of the support team."
+msgstr ""
+
+#: inc/admin/main.php:3254
+msgid "API request size"
+msgstr ""
+
+#: inc/admin/main.php:3258
+msgid "Leave at \"0\" for default"
+msgstr ""
+
+#: inc/admin/main.php:3260
+msgid ""
+"If your feed contains a lot of IG TV posts or your feed is not displaying any posts "
+"despite there being posts available on Instagram.com, try increasing this number to 25 "
+"or more."
+msgstr ""
+
+#: inc/admin/main.php:3266
+msgid "Load initial posts with AJAX"
+msgstr ""
+
+#: inc/admin/main.php:3271
+msgid ""
+"Initial posts will be loaded using AJAX instead of added to the page directly. If you "
+"use page caching, this will allow the feed to update according to the \"Check for new "
+"posts every\" setting on the \"Configure\" tab."
+msgstr ""
+
+#: inc/admin/main.php:3277
+msgid "Force cache to clear on interval"
+msgstr ""
+
+#: inc/admin/main.php:3281
+msgid " - "
+msgstr ""
+
+#: inc/admin/main.php:3283
+msgid "No"
+msgstr ""
+
+#: inc/admin/main.php:3287
+msgid ""
+"If you're experiencing an issue with the plugin not auto-updating then you can set "
+"this to 'Yes' to run a scheduled event behind the scenes which forces the plugin cache "
+"to clear on a regular basis and retrieve new data from Instagram."
+msgstr ""
+
+#: inc/admin/main.php:3292
+msgid "Enable Backup/Permanent caching"
+msgstr ""
+
+#: inc/admin/main.php:3295
+msgid "Clear Backup/Permanent Caches"
+msgstr ""
+
+#: inc/admin/main.php:3297
+msgid ""
+"Every feed will save a duplicate version of itself in the database to be used if the "
+"normal cache is not available."
+msgstr ""
+
+#: inc/admin/main.php:3302
+msgid "Enqueue JS file in head"
+msgstr ""
+
+#: inc/admin/main.php:3306
+msgid ""
+"Check this box if you'd like to enqueue the JavaScript file for the plugin in the head "
+"instead of the footer."
+msgstr ""
+
+#: inc/admin/main.php:3311
+msgid "Enqueue CSS file with shortcode"
+msgstr ""
+
+#: inc/admin/main.php:3315
+msgid ""
+"Check this box if you'd like to only include the CSS file for the plugin when the feed "
+"is on the page."
+msgstr ""
+
+#: inc/admin/main.php:3320
+msgid "Disable JS Image Loading"
+msgstr ""
+
+#: inc/admin/main.php:3324
+msgid "Check this box to have images loaded server side instead of with JS."
+msgstr ""
+
+#: inc/admin/main.php:3329
+msgid "Disable Mobile Swipe Code"
+msgstr ""
+
+#: inc/admin/main.php:3333
+msgid ""
+"Check this box if you'd like to disable jQuery mobile in the JavaScript file. This "
+"will fix issues with jQuery versions 2.x and later."
+msgstr ""
+
+#: inc/admin/main.php:3338
+msgid "Disable icon font"
+msgstr ""
+
+#: inc/admin/main.php:3344
+msgid "Icon Method"
+msgstr ""
+
+#: inc/admin/main.php:3348
+msgid "Font File"
+msgstr ""
+
+#: inc/admin/main.php:3351
+msgid ""
+"This plugin uses SVGs for all icons in the feed. Use this setting to switch to font "
+"icons."
+msgstr ""
+
+#: inc/admin/main.php:3355
+msgid "Caption Line-Break Limit"
+msgstr ""
+
+#: inc/admin/main.php:3359
+#, php-format
+msgid ""
+"Character Limits for captions are adjusted for use of new line or %s html. Disable "
+"this setting to always use the true character limit."
+msgstr ""
+
+#: inc/admin/main.php:3363
+msgid "Enable Mediavine integration"
+msgstr ""
+
+#: inc/admin/main.php:3368
+msgid ""
+"Enable this setting to automatically place ads if you are using Mediavine ad management"
+msgstr ""
+
+#: inc/admin/main.php:3372
+msgid "Enable Custom Templates"
+msgstr ""
+
+#: inc/admin/main.php:3377
+msgid ""
+"The default HTML for the feed can be replaced with custom templates added to your "
+"theme's folder. Enable this setting to use these templates. See <a href=\"https://"
+"smashballoon.com/guide-to-creating-custom-templates/\" target=\"_blank\">this guide</a>"
+msgstr ""
+
+#: inc/admin/main.php:3383
+msgid "License Page Super Admin Only"
+msgstr ""
+
+#: inc/admin/main.php:3387
+msgid ""
+"If you are using multisite, you can restrict access to the license page to super "
+"admin's only by enabling this setting."
+msgstr ""
+
+#: inc/admin/main.php:3404
+msgid "Next Step:"
+msgstr ""
+
+#: inc/admin/main.php:3404 inc/admin/main.php:3411
+msgid "Display your Feed"
+msgstr ""
+
+#: inc/admin/main.php:3412
+msgid ""
+"Copy and paste the following shortcode directly into the page, post or widget where "
+"you'd like the feed to show up:"
+msgstr ""
+
+#: inc/admin/main.php:3416
+msgid ""
+"If you'd like to display multiple feeds then you can set different settings directly "
+"in the shortcode like so:"
+msgstr ""
+
+#: inc/admin/main.php:3423
+msgid "See the table below for a full list of available shortcode options:"
+msgstr ""
+
+#: inc/admin/main.php:3428
+msgid "Shortcode option"
+msgstr ""
+
+#: inc/admin/main.php:3429
+msgid "Description"
+msgstr ""
+
+#: inc/admin/main.php:3430
+msgid "Example"
+msgstr ""
+
+#: inc/admin/main.php:3433
+msgid "Configure Options"
+msgstr ""
+
+#: inc/admin/main.php:3436
+msgid "Display photos from a connected User Account"
+msgstr ""
+
+#: inc/admin/main.php:3436
+msgid "Display posts from a Hashtag"
+msgstr ""
+
+#: inc/admin/main.php:3437
+msgid "Display posts that have tagged a connected User Account"
+msgstr ""
+
+#: inc/admin/main.php:3438
+msgid "Display a mix of feed types"
+msgstr ""
+
+#: inc/admin/main.php:3443
+msgid ""
+"Your Instagram user name for the account. This must be a user name from one of your "
+"connected accounts."
+msgstr ""
+
+#: inc/admin/main.php:3448
+msgid "Any hashtag. Separate multiple IDs by commas."
+msgstr ""
+
+#: inc/admin/main.php:3453
+msgid "The order to display the Hashtag feed posts"
+msgstr ""
+
+#: inc/admin/main.php:3457
+msgid "Customize Options"
+msgstr ""
+
+#: inc/admin/main.php:3460
+msgid "The width of your feed. Any number."
+msgstr ""
+
+#: inc/admin/main.php:3465
+msgid "The unit of the width. 'px' or '%'"
+msgstr ""
+
+#: inc/admin/main.php:3470
+msgid "The height of your feed. Any number."
+msgstr ""
+
+#: inc/admin/main.php:3475
+msgid "The unit of the height. 'px' or '%'"
+msgstr ""
+
+#: inc/admin/main.php:3480
+msgid "The background color of the feed. Any hex color code."
+msgstr ""
+
+#: inc/admin/main.php:3485
+msgid "Layout Options"
+msgstr ""
+
+#: inc/admin/main.php:3488
+msgid "How posts are arranged visually in the feed."
+msgstr ""
+
+#: inc/admin/main.php:3493
+msgid "The number of photos to display initially. Maximum is 33."
+msgstr ""
+
+#: inc/admin/main.php:3498
+msgid ""
+"The number of photos to display initially for mobile screens (smaller than 480 pixels)."
+msgstr ""
+
+#: inc/admin/main.php:3503
+msgid "The number of columns in your feed. 1 - 10."
+msgstr ""
+
+#: inc/admin/main.php:3508
+msgid "The number of columns in your feed for mobile screens (smaller than 480 pixels)."
+msgstr ""
+
+#: inc/admin/main.php:3513
+msgid "The spacing around your photos"
+msgstr ""
+
+#: inc/admin/main.php:3518
+msgid "The unit of the padding. 'px' or '%'"
+msgstr ""
+
+#: inc/admin/main.php:3522
+msgid "Carousel Options"
+msgstr ""
+
+#: inc/admin/main.php:3525
+msgid "Choose 1 or 2 rows of posts in the carousel"
+msgstr ""
+
+#: inc/admin/main.php:3530
+msgid "Infinitely loop through posts or rewind"
+msgstr ""
+
+#: inc/admin/main.php:3535
+msgid "Display directional arrows on the carousel"
+msgstr ""
+
+#: inc/admin/main.php:3540
+msgid "Display pagination links below the carousel"
+msgstr ""
+
+#: inc/admin/main.php:3545
+msgid "Make the carousel autoplay"
+msgstr ""
+
+#: inc/admin/main.php:3550
+msgid "The interval time between slides for autoplay. Time in miliseconds."
+msgstr ""
+
+#: inc/admin/main.php:3554
+msgid "Highlight Options"
+msgstr ""
+
+#: inc/admin/main.php:3557
+msgid "Choose from 3 different ways of highlighting posts."
+msgstr ""
+
+#: inc/admin/main.php:3562
+msgid "How often a post is highlighted."
+msgstr ""
+
+#: inc/admin/main.php:3567
+msgid "When to start the highlight pattern."
+msgstr ""
+
+#: inc/admin/main.php:3572
+msgid "Highlight posts with these hashtags."
+msgstr ""
+
+#: inc/admin/main.php:3576
+msgid "Photos Options"
+msgstr ""
+
+#: inc/admin/main.php:3579
+msgid "Sort the posts by Newest to Oldest (none) or Random (random)"
+msgstr ""
+
+#: inc/admin/main.php:3584
+msgid "The resolution/size of the photos."
+msgstr ""
+
+#: inc/admin/main.php:3589
+msgid "Display all media, only photos, or only videos"
+msgstr ""
+
+#: inc/admin/main.php:3594
+msgid "Whether to disable the photo Lightbox. It is enabled by default."
+msgstr ""
+
+#: inc/admin/main.php:3599
+msgid ""
+"Whether to use urls in captions for the photo's link instead of linking to instagram."
+"com."
+msgstr ""
+
+#: inc/admin/main.php:3603
+msgid "Lightbox Comments Options"
+msgstr ""
+
+#: inc/admin/main.php:3606
+msgid "Whether to show comments in the lightbox for this feed."
+msgstr ""
+
+#: inc/admin/main.php:3611
+msgid "Number of comments to show starting from the most recent."
+msgstr ""
+
+#: inc/admin/main.php:3615
+msgid "Photos Hover Style Options"
+msgstr ""
+
+#: inc/admin/main.php:3618
+msgid "The background color when hovering over a photo. Any hex color code."
+msgstr ""
+
+#: inc/admin/main.php:3623
+msgid "The text/icon color when hovering over a photo. Any hex color code."
+msgstr ""
+
+#: inc/admin/main.php:3628
+msgid "The info to display when hovering over the photo. Available options:"
+msgstr ""
+
+#: inc/admin/main.php:3632
+msgid "Header Options"
+msgstr ""
+
+#: inc/admin/main.php:3635
+msgid "Whether to show the feed Header."
+msgstr ""
+
+#: inc/admin/main.php:3640
+msgid "Which header style to use. Choose from standard, boxed, or centered."
+msgstr ""
+
+#: inc/admin/main.php:3645
+msgid "Size of the header. Choose from small, medium, or large."
+msgstr ""
+
+#: inc/admin/main.php:3650
+msgid "The primary color to use for the <b>boxed</b> header. Any hex color code."
+msgstr ""
+
+#: inc/admin/main.php:3655
+msgid "The secondary color to use for the <b>boxed</b> header. Any hex color code."
+msgstr ""
+
+#: inc/admin/main.php:3660
+msgid "Display the number of followers in the header"
+msgstr ""
+
+#: inc/admin/main.php:3665
+msgid "Display the bio in the header"
+msgstr ""
+
+#: inc/admin/main.php:3670
+msgid "The color of the Header text. Any hex color code."
+msgstr ""
+
+#: inc/admin/main.php:3675
+msgid "Include the user's Instagram story in the header if available."
+msgstr ""
+
+#: inc/admin/main.php:3680
+msgid "Length of time an image slide will display when viewing stories."
+msgstr ""
+
+#: inc/admin/main.php:3684
+msgid "Caption Options"
+msgstr ""
+
+#: inc/admin/main.php:3687
+msgid "Whether to show the photo caption. 'true' or 'false'."
+msgstr ""
+
+#: inc/admin/main.php:3692
+msgid "The number of characters of the caption to display"
+msgstr ""
+
+#: inc/admin/main.php:3697
+msgid "The text color of the caption. Any hex color code."
+msgstr ""
+
+#: inc/admin/main.php:3702
+msgid "The size of the caption text. Any number."
+msgstr ""
+
+#: inc/admin/main.php:3706
+msgid "Likes &amp; Comments Options"
+msgstr ""
+
+#: inc/admin/main.php:3709
+msgid "Whether to show the Likes &amp; Comments. 'true' or 'false'."
+msgstr ""
+
+#: inc/admin/main.php:3714
+msgid "The color of the Likes &amp; Comments. Any hex color code."
+msgstr ""
+
+#: inc/admin/main.php:3719
+msgid "The size of the Likes &amp; Comments. Any number."
+msgstr ""
+
+#: inc/admin/main.php:3723
+msgid "'Load More' Button Options"
+msgstr ""
+
+#: inc/admin/main.php:3726
+msgid "Whether to show the 'Load More' button."
+msgstr ""
+
+#: inc/admin/main.php:3731 inc/admin/main.php:3753
+msgid "The background color of the button. Any hex color code."
+msgstr ""
+
+#: inc/admin/main.php:3736 inc/admin/main.php:3758
+msgid "The text color of the button. Any hex color code."
+msgstr ""
+
+#: inc/admin/main.php:3741 inc/admin/main.php:3763
+msgid "The text used for the button."
+msgstr ""
+
+#: inc/admin/main.php:3745
+msgid "'Follow' Button Options"
+msgstr ""
+
+#: inc/admin/main.php:3748
+msgid "Whether to show the Instagram 'Follow' button."
+msgstr ""
+
+#: inc/admin/main.php:3766
+msgid "Auto Load More on Scroll"
+msgstr ""
+
+#: inc/admin/main.php:3769
+msgid "Load more posts automatically as the user scrolls down the page."
+msgstr ""
+
+#: inc/admin/main.php:3774
+msgid "Distance before the end of feed or page that triggers the loading of more posts."
+msgstr ""
+
+#: inc/admin/main.php:3777
+msgid "Post Filtering Options"
+msgstr ""
+
+#: inc/admin/main.php:3780
+msgid "Remove posts which contain certain words or hashtags in the caption."
+msgstr ""
+
+#: inc/admin/main.php:3785
+msgid "Only display posts which contain certain words or hashtags in the caption."
+msgstr ""
+
+#: inc/admin/main.php:3790
+msgid "Only display posts from this user. Separate multiple users with a comma"
+msgstr ""
+
+#: inc/admin/main.php:3795
+msgid "Only display posts that match one of the post ids in this \"whitelist\""
+msgstr ""
+
+#: inc/admin/main.php:3799
+msgid "Misc Options"
+msgstr ""
+
+#: inc/admin/main.php:3802
+msgid "Feed will never look for new posts from Instagram."
+msgstr ""
+
+#: inc/admin/main.php:3807
+msgid "Change the number of maximum concurrent API requests."
+msgstr ""
+
+#: inc/admin/main.php:3807
+msgid "This is not recommended unless directed by a member of the support team."
+msgstr ""
+
+#: inc/admin/main.php:3812
+msgid "Whether or not the plugin should look in your theme for a custom template."
+msgstr ""
+
+#: inc/admin/main.php:3812
+msgid "Do not enable unless there are templates added to your theme's folder."
+msgstr ""
+
+#: inc/admin/main.php:3817
+msgid ""
+"A Valid Instagram Access Token (personal accounts only). Separate multiple using "
+"commas. This is only necessary if you do not have the account connected on the "
+"\"Configure\" tab."
+msgstr ""
+
+#: inc/admin/main.php:3836
+msgid "Setup Directions"
+msgstr ""
+
+#: inc/admin/main.php:3837
+msgid "A step-by-step guide on how to setup and use the plugin."
+msgstr ""
+
+#: inc/admin/main.php:3841
+msgid "Watch a Video"
+msgstr ""
+
+#: inc/admin/main.php:3842
+msgid "How to setup, use, and customize the plugin."
+msgstr ""
+
+#: inc/admin/main.php:3848
+msgid "FAQs and Docs"
+msgstr ""
+
+#: inc/admin/main.php:3849
+msgid ""
+"View our expansive library of FAQs and documentation to help solve your problem as "
+"quickly as possible."
+msgstr ""
+
+#: inc/admin/main.php:3856
+msgid "My Access Token Keeps Expiring"
+msgstr ""
+
+#: inc/admin/main.php:3857
+msgid "My Instagram Feed Won't Load"
+msgstr ""
+
+#: inc/admin/main.php:3858
+msgid "Filter a User Feed by Hashtag"
+msgstr ""
+
+#: inc/admin/main.php:3859
+msgid "See All"
+msgstr ""
+
+#: inc/admin/main.php:3864
+msgid "Installation and Configuration"
+msgstr ""
+
+#: inc/admin/main.php:3865
+msgid "Displaying multiple feeds"
+msgstr ""
+
+#: inc/admin/main.php:3866
+msgid "Customizing your Feed"
+msgstr ""
+
+#: inc/admin/main.php:3871
+msgid "Welcome Page"
+msgstr ""
+
+#: inc/admin/main.php:3872
+msgid "View the plugin welcome page to see what's new in the latest update."
+msgstr ""
+
+#: inc/admin/main.php:3876
+msgid "Request Support"
+msgstr ""
+
+#: inc/admin/main.php:3877
+msgid ""
+"Still need help? Submit a ticket and one of our support experts will get back to you "
+"as soon as possible."
+msgstr ""
+
+#: inc/admin/main.php:3877
+msgid "Important:"
+msgstr ""
+
+#: inc/admin/main.php:3877
+#, php-format
+msgid "Please include your %s below with all support requests."
+msgstr ""
+
+#: inc/admin/main.php:3877 inc/admin/main.php:3883
+msgid "System Info"
+msgstr ""
+
+#: inc/admin/main.php:3883
+msgid "Click the text below to select all"
+msgstr ""
+
+#: inc/admin/main.php:4186
+msgid "Reset Error Log"
+msgstr ""
+
+#: inc/class-sb-instagram-api-connect.php:181 inc/class-sb-instagram-api-connect.php:217
+#, php-format
+msgid "API error %s:"
+msgstr ""
+
+#: inc/class-sb-instagram-api-connect.php:204 inc/class-sb-instagram-api-connect.php:290
+#, php-format
+msgid "Error: Access Token for %s is not valid or has expired."
+msgstr ""
+
+#: inc/class-sb-instagram-api-connect.php:204 inc/class-sb-instagram-api-connect.php:290
+#: inc/class-sb-instagram-settings.php:389 inc/class-sb-instagram-settings.php:439
+#: inc/pro/class-sbi-settings-pro.php:497 inc/pro/class-sbi-settings-pro.php:547
+#: inc/pro/class-sbi-settings-pro.php:727 inc/pro/class-sbi-settings-pro.php:782
+#: inc/pro/class-sbi-settings-pro.php:832 inc/pro/class-sbi-settings-pro.php:962
+msgid "Feed will not update."
+msgstr ""
+
+#: inc/class-sb-instagram-api-connect.php:205
+msgid ""
+"There's an issue with the Instagram Access Token that you are using. Please obtain a "
+"new Access Token on the plugin's Settings page.<br />If you continue to have an issue "
+"with your Access Token then please see <a href=\"https://smashballoon.com/my-instagram-"
+"access-token-keep-expiring/\" target=\"_blank\" rel=\"noopener\">this FAQ</a> for more "
+"information."
+msgstr ""
+
+#: inc/class-sb-instagram-api-connect.php:250 inc/pro/class-sbi-settings-pro.php:645
+#: inc/pro/class-sbi-settings-pro.php:918
+msgid "Error: Hashtag limit of 30 unique hashtags per week has been reached."
+msgstr ""
+
+#: inc/class-sb-instagram-api-connect.php:250 inc/pro/class-sbi-settings-pro.php:645
+#, php-format
+msgid "Feed may not display until %s."
+msgstr ""
+
+#: inc/class-sb-instagram-api-connect.php:251 inc/pro/class-sbi-settings-pro.php:646
+#: inc/pro/class-sbi-settings-pro.php:919
+msgid ""
+"If you need to display more than 30 hashtag feeds on your site, consider connecting an "
+"additional business account from a separate Instagram and Facebook account."
+msgstr ""
+
+#: inc/class-sb-instagram-api-connect.php:258
+#, php-format
+msgid ""
+"Error: Connected account for the user %s does not have permission to use this feed "
+"type."
+msgstr ""
+
+#: inc/class-sb-instagram-api-connect.php:259
+msgid ""
+"Try using the big blue button on the \"Configure\" tab to reconnect the account and "
+"update its permissions."
+msgstr ""
+
+#: inc/class-sb-instagram-api-connect.php:265
+msgid "Error: Hashtag does not exist."
+msgstr ""
+
+#: inc/class-sb-instagram-api-connect.php:266
+msgid "Please make a post that uses this hashtag to display this feed."
+msgstr ""
+
+#: inc/class-sb-instagram-api-connect.php:291
+msgid ""
+"There's an issue with the Instagram Access Token that you are using. Please obtain a "
+"new Access Token on the plugin's Settings page."
+msgstr ""
+
+#: inc/class-sb-instagram-api-connect.php:325
+#, php-format
+msgid "Error connecting to %s."
+msgstr ""
+
+#: inc/class-sb-instagram-feed.php:674
+msgid "Error: API requests are being delayed for this account."
+msgstr ""
+
+#: inc/class-sb-instagram-feed.php:674 inc/class-sb-instagram-posts-manager.php:385
+msgid "New posts will not be retrieved."
+msgstr ""
+
+#: inc/class-sb-instagram-feed.php:682 inc/class-sb-instagram-feed.php:1160
+#: inc/pro/class-sbi-feed-pro.php:812
+msgid "Click here to troubleshoot"
+msgstr ""
+
+#: inc/class-sb-instagram-feed.php:684 inc/class-sb-instagram-posts-manager.php:394
+msgid ""
+"There may be an issue with the Instagram access token that you are using. Your server "
+"might also be unable to connect to Instagram at this time."
+msgstr ""
+
+#: inc/class-sb-instagram-feed.php:987
+msgid ""
+"Error: admin-ajax.php test was not successful. Some features may not be available."
+msgstr ""
+
+#: inc/class-sb-instagram-feed.php:1028 inc/pro/class-sbi-feed-pro.php:788
+msgid "No posts found."
+msgstr ""
+
+#: inc/class-sb-instagram-feed.php:1157
+msgid "Error: No posts found."
+msgstr ""
+
+#: inc/class-sb-instagram-feed.php:1158 inc/pro/class-sbi-feed-pro.php:809
+msgid "Make sure this account has posts available on instagram.com."
+msgstr ""
+
+#: inc/class-sb-instagram-post.php:395
+msgid "Error updating post."
+msgstr ""
+
+#: inc/class-sb-instagram-post.php:450 inc/class-sb-instagram-post.php:462
+msgid "Error inserting post."
+msgstr ""
+
+#: inc/class-sb-instagram-post.php:450
+msgid "No database ID."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:292 instagram-feed.php:209
+#: instagram-feed.php:231
+msgid "There was an error creating the folder for storing resized images."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:385
+msgid "Error: API requests are being delayed."
+msgstr ""
+
+#: inc/class-sb-instagram-settings.php:389 inc/pro/class-sbi-settings-pro.php:497
+#: inc/pro/class-sbi-settings-pro.php:782
+#, php-format
+msgid "Error: There is no connected account for the user %s."
+msgstr ""
+
+#: inc/class-sb-instagram-settings.php:439 inc/pro/class-sbi-settings-pro.php:547
+#: inc/pro/class-sbi-settings-pro.php:832
+#, php-format
+msgid "Error: There is no connected account for the user %s"
+msgstr ""
+
+#: inc/if-functions.php:53 inc/if-functions.php:512
+msgid "This error message is only visible to WordPress admins"
+msgstr ""
+
+#: inc/if-functions.php:54
+msgid "Error: No connected account."
+msgstr ""
+
+#: inc/if-functions.php:55
+msgid "Please go to the Instagram Feed settings page to connect an account."
+msgstr ""
+
+#: inc/if-functions.php:458
+msgid "Please connect an account on the Instagram Feed plugin Settings page."
+msgstr ""
+
+#: inc/if-functions.php:655
+msgid "Load More..."
+msgstr ""
+
+#: inc/pro/class-sbi-feed-pro.php:797
+msgid ""
+"Use <a href=\"https://smashballoon.com/guide-to-moderation-mode/\">moderation mode</a> "
+"to add posts to your whitelist."
+msgstr ""
+
+#: inc/pro/class-sbi-feed-pro.php:799
+msgid ""
+"You may be filtering out too many posts or there could be a cache conflict. See <a "
+"href=\"https://smashballoon.com/post-filtering-not-working/\">this page</a> for "
+"troubleshooting steps."
+msgstr ""
+
+#: inc/pro/class-sbi-feed-pro.php:804
+msgid "No posts made to this hashtag within the last 24 hours."
+msgstr ""
+
+#: inc/pro/class-sbi-feed-pro.php:806
+msgid "No posts made to this hashtag."
+msgstr ""
+
+#: inc/pro/class-sbi-settings-pro.php:559
+msgid "Error: No users set."
+msgstr ""
+
+#: inc/pro/class-sbi-settings-pro.php:559
+msgid ""
+"Please visit the plugin's settings page to select a user account or add one to the "
+"shortcode - user=\"username\"."
+msgstr ""
+
+#: inc/pro/class-sbi-settings-pro.php:668 inc/pro/class-sbi-settings-pro.php:914
+msgid "Error: No hashtags set."
+msgstr ""
+
+#: inc/pro/class-sbi-settings-pro.php:668 inc/pro/class-sbi-settings-pro.php:914
+msgid ""
+"Please visit the plugin's settings page to enter a hashtag or add one to the shortcode "
+"- hashtag=\"example\"."
+msgstr ""
+
+#: inc/pro/class-sbi-settings-pro.php:675 inc/pro/class-sbi-settings-pro.php:924
+msgid "Error: There are no business accounts connected."
+msgstr ""
+
+#: inc/pro/class-sbi-settings-pro.php:675 inc/pro/class-sbi-settings-pro.php:924
+#, php-format
+msgid "Please visit %s to learn how to connect a business account."
+msgstr ""
+
+#: inc/pro/class-sbi-settings-pro.php:727 inc/pro/class-sbi-settings-pro.php:962
+#, php-format
+msgid "Error: There is no connected business account for the user %s."
+msgstr ""
+
+#: inc/pro/class-sbi-settings-pro.php:973
+msgid "Error: No feed type selected."
+msgstr ""
+
+#: inc/pro/class-sbi-settings-pro.php:973
+msgid "Please use a feed type of \"user\", \"hashtag\", or \"mixed\"."
+msgstr ""
+
+#: instagram-feed.php:336 instagram-feed.php:360
+msgid ""
+"There was an error when trying to create the database tables used for resizing images."
+msgstr ""
+
+#: templates/item.php:26
+msgid "Image for post"
+msgstr ""
+
+#: templates/item.php:63
+msgid "View on Instagram"
+msgstr ""
+
+#: templates/item.php:94
+msgid "Link to display lightbox"
+msgstr ""
+
+#: templates/item.php:100
+#, php-format
+msgid "Instagram post %s"
+msgstr ""
+
+#: widget.php:16
+msgid "Display your Instagram feed"
+msgstr ""
+
+#: widget.php:42
+msgid "Title:"
+msgstr ""

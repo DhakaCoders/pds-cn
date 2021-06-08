@@ -1,0 +1,265 @@
+# Translation of Plugins - Enable Media Replace - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Enable Media Replace - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-17 13:50:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Enable Media Replace - Stable (latest release)\n"
+
+#: views/popup.php:193
+msgid "Put new Upload in Updated Folder: "
+msgstr "Nieuwe upload in bijgewerkte map plaatsen:"
+
+#: views/popup.php:150
+msgid "Note: If you check this option, the name and type of the file you are about to upload will replace the old file. All links pointing to the current file (%s) will be updated to point to the new file name. (If any other websites link to the file directly, those links will no longer work. Be careful.)"
+msgstr "Opmerking:als je deze optie aanvinkt, zullen de naam en het type van het bestand dat je gaat uploaden het oude bestand vervangen. Alle links die naar het huidige bestand (%s) verwijzen, worden geüpdatet zodat ze naar de nieuwe bestandsnaam verwijzen. (Als andere sites rechtstreeks naar het bestand linken, werken die links niet meer. Wees voorzichtig.)"
+
+#: views/popup.php:91
+msgid "Drop File Here"
+msgstr "Bestand hier neerzetten"
+
+#: build/shortpixel/notices/src/NoticeModel.php:218
+msgid "Hide Details"
+msgstr "Verberg details"
+
+#: build/shortpixel/notices/src/NoticeModel.php:214
+msgid "See Details"
+msgstr "Zie de details"
+
+#: classes/emr-plugin.php:379
+msgid "Replaced By"
+msgstr "Vervangen door"
+
+#: classes/replacer.php:334
+msgid "EMR could not establish a proper destination for replacement"
+msgstr "EMR kon geen geschikte bestemming voor vervanging vaststellen"
+
+#: classes/replacer.php:304
+msgid "In specificied directory there is already a file with the same name. Can't replace."
+msgstr "In de opgegeven map is er al een bestand met dezelfde naam. Kan niet vervangen."
+
+#: classes/replacer.php:281
+msgid "Specificed new directory does not exist. Path must be a relative path from the upload directory and exist"
+msgstr "De aangegeven nieuwe map bestaat niet. Pad moet een relatief pad zijn vanuit de upload map en moet bestaan ​​"
+
+#: views/popup.php:243
+msgid "FIND OUT MORE"
+msgstr "MEER TE WETEN KOMEN"
+
+#: views/popup.php:242
+msgid "ALLOW ShortPixel %s SPECIALISTS TO %s FIND THE %s SOLUTION FOR YOU."
+msgstr "LAAT ShortPixel %s SPECIALISTEN DE %s OPLOSSING %s VINDEN VOOR JE."
+
+#: views/popup.php:241
+msgid "ARE YOU %s CONCERNED WITH %s YOUR %s %s SITE SPEED? %s"
+msgstr "BEN JE %s BANG VOOR %s JOUW %s %s SITE SNELHEID?  %s"
+
+#: views/popup.php:179
+msgid "Custom Date"
+msgstr "Aangepaste datum"
+
+#: views/popup.php:175
+msgid "Set a Custom Date"
+msgstr "Een aangepaste datum instellen"
+
+#: views/popup.php:174
+msgid "Keep the date %s(%s)%s"
+msgstr "Bewaar de datum %s(%s)%s"
+
+#: views/popup.php:173
+msgid "Replace the date"
+msgstr "Vervang de datum"
+
+#: views/popup.php:171
+msgid "When replacing the media, do you want to:"
+msgstr "Wil je bij het vervangen van de media:"
+
+#: views/popup.php:159
+msgid "Date Options"
+msgstr "Datumopties"
+
+#: views/popup.php:121
+msgid "Replacement Options"
+msgstr "Vervangingsopties"
+
+#: views/popup.php:85
+msgid "Replacement file type doesn't seem to be allowed by WordPress. This might cause unexpected issues"
+msgstr "Vervangend bestandstype lijkt niet te worden toegestaan ​​door WordPress. Dit kan onverwachte problemen veroorzaken"
+
+#: views/popup.php:83
+msgid "Replacement file is not the same filetype. This might cause unexpected issues"
+msgstr "Vervangend bestand is niet hetzelfde bestandstype. Dit kan onverwachte problemen veroorzaken"
+
+#: views/popup.php:80
+msgid "%s f %s exceeds the maximum upload size for this site."
+msgstr "%s f %s overschrijdt de maximale uploadgrootte voor deze site."
+
+#: views/popup.php:79
+msgid "Maximum file size: <strong>%s</strong>"
+msgstr "Maximale bestandsgrootte: <strong>%s</strong>"
+
+#: views/popup.php:72
+msgid "Choose Replacement Media"
+msgstr "Kies vervangende media"
+
+#: views/upload.php:176
+msgid "File successfully replaced"
+msgstr "Bestand succesvol vervangen"
+
+#: views/upload.php:171
+msgid "File Upload seems to have failed. No files were returned by system"
+msgstr "Het uploaden van bestanden lijkt te zijn mislukt. Er zijn geen bestanden door het systeem geretourneerd"
+
+#: views/upload.php:72
+msgid "Invalid Custom Date. Please custom date values (%s)"
+msgstr "Ongeldige aangepaste datum. Aangepaste datumwaarden (%s)"
+
+#: build/shortpixel/log/src/DebugItem.php:35
+msgid "[Data]"
+msgstr "[Gegevens]"
+
+#: views/popup.php:203
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: views/popup.php:202
+msgid "Upload"
+msgstr "Uploaden"
+
+#: views/popup.php:152
+msgid "Please note that if you upload a new image, only embeds/links of the original size image will be replaced in your posts."
+msgstr "Houd er rekening mee dat, wanneer je een nieuwe afbeelding upload, alleen de embeds/links van de oorspronkelijke afbeelding in je berichten worden vervangen."
+
+#: views/popup.php:147
+msgid "Replace the file, use new file name and update all links"
+msgstr "Vervang het bestand, gebruik de nieuwe naam, en werk alle links bij"
+
+#: views/popup.php:136
+msgid "Note: This option requires you to upload a file of the same type (%s) as the one you are replacing. The name of the attachment will stay the same (%s) no matter what the file you upload is called."
+msgstr "Opmerking: voor deze optie moet je een bestand van hetzelfde type (%s) uploaden als het bestand dat je vervangt. De naam van de bijlage blijft hetzelfde (%s), ongeacht het bestand dat je uploadt."
+
+#: views/popup.php:132
+msgid "Just replace the file"
+msgstr "Alleen het bestand vervangen"
+
+#: views/popup.php:78
+msgid "Choose a file to upload from your computer"
+msgstr "Selecteer een bestand op jouw computer om te uploaden"
+
+#: views/popup.php:229
+msgid "Get more Google love by compressing your site's images! Check out how much ShortPixel can save your site and get +50% credits when signing up as an Enable Media Replace user! Forever!"
+msgstr "Krijg meer Google-liefde door de afbeeldingen van je site te comprimeren! Bekijk hoeveel ShortPixel je site kan besparen en ontvang 50% tegoed wanneer je zich aanmeldt als Enable Media Replace-gebruiker! Voor altijd!"
+
+#: views/popup.php:220
+msgid "Optimize your images with ShortPixel, get +50% credits!"
+msgstr "Optimaliseer je afbeeldingen met ShortPixel, ontvang + 50% credits!"
+
+#: views/popup.php:74
+msgid "NOTE: You are about to replace the media file \"%s\". There is no undo. Think about it!"
+msgstr "OPMERKING: je staat op het punt het mediabestand \"%s\" te vervangen. Ongedaan maken is niet mogelijk. Denk er over na!"
+
+#: views/popup.php:57
+msgid "Replace Media Upload"
+msgstr "Vervangen Mediabestand Upload"
+
+#: classes/emr-plugin.php:367
+msgid "Revised"
+msgstr "Herzien"
+
+#: classes/emr-plugin.php:364
+msgid "M j, Y @ H:i"
+msgstr "M j, Y @ H: i"
+
+#: classes/emr-plugin.php:253
+msgid "Original"
+msgstr "Origineel"
+
+#: classes/emr-plugin.php:241
+msgid "Thumbnails were not generated"
+msgstr "Miniaturen zijn niet gegenereerd"
+
+#: classes/emr-plugin.php:231 classes/emr-plugin.php:286
+msgid "To replace the current file, click the link and upload a replacement."
+msgstr "Klik om het bestaande bestand te vervangen door een nieuw te uploaden bestand."
+
+#: classes/emr-plugin.php:231 classes/emr-plugin.php:286
+msgid "Upload a new file"
+msgstr "Uploaden nieuw bestand"
+
+#: classes/emr-plugin.php:82 classes/emr-plugin.php:284
+#: classes/emr-plugin.php:317
+msgid "Replace media"
+msgstr "Vervang media"
+
+#: classes/emr-plugin.php:68
+msgid "Replaced Thumbnails Preview"
+msgstr "Voorbeeld van vervangen thumbnails"
+
+#: classes/emr-plugin.php:56
+msgid "Replace Media"
+msgstr "Media vervangen"
+
+#: classes/replacer.php:524
+msgid "There was an issue with updating your image URLS: Search and replace have different amount of values. Aborting updating thumbnails"
+msgstr "Er was een probleem met het bijwerken van je afbeeldings-URL's: zoeken en vervangen hebben verschillende waarden. Updaten van thumbnails afbreken"
+
+#: classes/replacer.php:447
+msgid "Fail Safe :: Source Location returned empty string. Not replacing content"
+msgstr "Fail Safe :: Bron locatie heeft een lege string geretourneerd. Inhoud niet vervangen"
+
+#: classes/replacer.php:440
+msgid "Fail Safe :: Source Location seems to be a directory."
+msgstr "Fail Safe :: Bron locatie lijkt een map te zijn."
+
+#: classes/replacer.php:131
+msgid "The uploaded file could not be moved to %1$s. This is most likely an issue with permissions, or upload failed."
+msgstr "Het geüploade bestand kan niet worden verplaatst naar %1$s. Dit is hoogstwaarschijnlijk een probleem met rechten of het uploaden is mislukt."
+
+#: views/upload.php:127
+msgid "File type does not meet security guidelines. Try another."
+msgstr "Bestandstype voldoet niet aan de beveiligingsrichtlijnen. Probeer een ander."
+
+#: views/upload.php:11 views/popup.php:23
+msgid "You do not have permission to upload files."
+msgstr "Je hebt geen toestemming om bestanden te uploaden."
+
+#: views/notice.php:11 views/popup.php:233
+msgid "More info"
+msgstr "Meer informatie"
+
+#: views/notice.php:8
+msgid "<a href=\"https://shortpixel.com/wp/af/VKG6LYN28044\" target=\"_blank\">ShortPixel</a> is an image optimization plugin and if you have it activated, upon replacing an image in Enable Media Replace, the image will be also automatically optimized."
+msgstr "<a href=\"https://shortpixel.com/wp/af/VKG6LYN28044\" target=\"_blank\"> ShortPixel </a> is een plugin voor beeldoptimalisatie en als je deze hebt geactiveerd, na het vervangen van een afbeelding in Enable Media Replace wordt de afbeelding ook automatisch geoptimaliseerd."
+
+#: views/notice.php:6
+msgid "Enable Media Replace is now compatible with ShortPixel!"
+msgstr "Enable Media Replace is nu compatibel met ShortPixel!"
+
+#: views/notice.php:2
+msgid "Dismiss"
+msgstr "Sluiten"
+
+#. Author URI of the plugin
+msgid "https://shortpixel.com"
+msgstr "https://shortpixel.com"
+
+#. Author of the plugin
+msgid "ShortPixel"
+msgstr "ShortPixel"
+
+#. Description of the plugin
+msgid "Enable replacing media files by uploading a new file in the \"Edit Media\" section of the WordPress Media Library"
+msgstr "Schakel het vervangen van mediabestanden in door een nieuw bestand te uploaden in het gedeelte \"Media bewerken\" van de WordPress Mediabibliotheek"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/enable-media-replace/"
+msgstr "https://wordpress.org/plugins/enable-media-replace/"
+
+#. Plugin Name of the plugin
+msgid "Enable Media Replace"
+msgstr "Enable Media Replace"
