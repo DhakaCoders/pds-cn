@@ -1,0 +1,91 @@
+2021-06-09T10:40:14+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->sing in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-06-09T10:40:15+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->sing in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-06-09T10:40:22+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->sing in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-06-09T10:40:55+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->sing in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-06-09T10:44:12+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->sing in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-06-09T10:44:17+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->sing in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-06-09T10:44:19+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->sing in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-06-09T10:45:35+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->sing in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-06-09T10:45:37+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->sing in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-06-09T10:45:40+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->sing in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-06-09T12:16:29+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->sing in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-06-09T12:16:30+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->sing in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-06-09T12:16:35+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->sing in E:\host\htdocs\2021\06\pds\pds-cn\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+

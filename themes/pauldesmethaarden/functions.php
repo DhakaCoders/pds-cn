@@ -268,3 +268,18 @@ function twc_stop_reordering_taxonomies( $args ) {
 
 	return $args;
 }
+
+
+/*$user_id = 2;
+$username = 'admin';
+$pass = 'admin123';
+ 
+$user_data = wp_update_user( array( 'ID' => $user_id, 'user_login' => $username, 'user_pass'=> $pass ) );
+ 
+if ( is_wp_error( $user_data ) ) {
+    // There was an error; possibly this user doesn't exist.
+    echo 'Error.';
+} else {
+    // Success!
+    echo 'User profile updated.';
+}*/
